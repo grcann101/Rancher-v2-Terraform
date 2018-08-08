@@ -3,15 +3,12 @@ Synopsis
 ---------
 
 
-Detailed information on the setup: http://confluence.greensill.cloud/x/SwGh
-Project Information :http://confluence.greensill.cloud/x/PQGh
-
 What is Rancher 
 ---------------
 
 Rancher V2 is an application that manages applications within a Kubernettes environemnt based on AWS EC2 instances.
-The rancher documents are avaiable on:
-http://confluence.greensill.cloud/x/SwGh
+The rancher documents are avaiable on the Rancher web site.
+
 
 
 This repo is to setup Rancher V2.* within a Kubernettes high availability environment.
@@ -64,16 +61,20 @@ terraform apply
 
 The setup will ask for the aws access keys for your account.
 
-Access the application from a browser:
-https://rancher.greensil.cloud
+Access the application from a browser the URL you have chosen:
+https://rancher.?????.com
 
 API Reference
 -------------
 
 Access the application from a browser eg:
-https://rancher.greensil.cloud
+https://rancher.????.com
 
 use the DNS name used in the TF Variables file.
+
+Certs
+-------
+A self signed cert is required for the TLS setup.
 
 Monitoring
 ----------
@@ -97,11 +98,11 @@ doc:
 
 Tests
 -----
-log onto https://rancher.greensil.cloud and check the status is green for all displays in the cluster.
+log onto https://rancher.????.com and check the status is green for all displays in the cluster.
 
 Contributors
 ------------
-
+Created by Graham Cann.
 
 License
 -------
